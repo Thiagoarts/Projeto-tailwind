@@ -18,8 +18,9 @@ O layout é composto por:
 
 ## 📸 Screenshot
 
-![Captura de tela do projeto](image/Captura de tela 2025-06-04 124008.png)
-![Imagen dos personagens](image/ )
+- ![Captura de tela do projeto](image/print_do-projeto.png)
+- 
+- ![Imagen dos personagens](image)
 
 ## 🚀 Como usar
 
