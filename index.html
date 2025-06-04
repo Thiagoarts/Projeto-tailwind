@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cartão de Perfil - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-red-500 text-white">
+    <!-- Div Pai Cabeçalho bg-black flex justify-between items-center py-5 w-screen px-6 fixed-->
+    <div class="fixed top-0 left-0 w-full z-50 bg-black flex justify-between items-center py-5 px-6">
+      <!-- Filho 1 com o título -->
+      <div>
+        <h1 class="text-xl font-bold text-white">Personagens Over Power</h1>
+      </div>
+      <!-- Filho 2 com os botões -->
+      <div class="flex gap-4">
+        <button class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Home</button>
+        <button class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Sobre</button>
+        <button class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300 transition">Contato</button>
+      </div>
+    </div>
+
+    <!-- Início dos Cards -->
+    <div class="flex flex-wrap justify-center gap-6  py-20 px-10 mt-24 w-screen">
+
+      <!-- Card 1 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/itachi-uchiha-v0-uq9bah1u441c1.webp" alt="">
+        <h1 class="text-black text-2xl mt-4">Itachi Uchiha</h1>
+        <p class="text-gray-400 text-center">Hokage das sombras | Melhor Uchiha</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/edo-tensei-tobirama-senju-naruto-hokage-o6k1r4hdpvobx527.jpg" alt="">   
+        <h1 class="text-black text-2xl mt-4">Tobirama Senju</h1>
+        <p class="text-gray-400 text-center">2º Hokage de Konoha | O mais rápido de todos</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/minato-namikaze-from-naruto-a41cy5olkpa80fya.jpg" alt="">
+        <h1 class="text-black text-2xl mt-4">Minato Namikaze</h1>
+        <p class="text-gray-400 text-center">4º Hokage de Konoha | Relâmpago Amarelo da Folha</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/madara.jpg" alt="">
+        <h1 class="text-black text-2xl mt-4">Madara Uchiha</h1>
+        <p class="text-gray-400 text-center">Uchiha Lendário | Segundo Sábio dos Seis Caminhos </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/obito.jpg" alt="">
+        <h1 class="text-black text-2xl mt-4">Obito Uchiha</h1>
+        <p class="text-gray-400 text-center">Tobi/Madara | Causador da 4º Grande Guerra Ninja | Gado DEMAISSS</p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="flex flex-col justify-center items-center bg-white p-4 rounded shadow basis-80">
+        <img class="w-32 h-32 object-cover rounded-md" src="/Users/Thiago/Downloads/site com tailwind/hashirama.jpg" alt="">
+        <h1 class="text-black text-2xl mt-4">Hashirama Senju</h1>
+        <p class="text-gray-400 text-center">1º Hokage de Konoha | Deus Shinobi</p>
+      </div>
+
+    </div>
+  </body>
+</html>
